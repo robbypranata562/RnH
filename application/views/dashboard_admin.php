@@ -9,11 +9,11 @@
 <link rel="stylesheet" href="<?php  echo base_url()."assets/dist/css/skins/_all-skins.min.css" ?>">
 <link rel="stylesheet" href="<?php  echo base_url()."assets/bootstrap/css/bootstrap.min.css" ?>">
 <link rel="stylesheet" href="<?php  echo base_url()."assets/dist/css/AdminLTE.css" ?>">
-<link rel="stylesheet" href="<?php  echo base_url()."assets/font-awesome/css/font-awesome.min.css" ?>">
-<link rel="stylesheet" href="<?php base_url() ?>assets/plugins/datatables/dataTables.bootstrap.css">
-<link rel="stylesheet" href="<?php base_url() ?>assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css">
-<link rel="stylesheet" href="<?php base_url() ?>assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css">
-<link rel="stylesheet" href="<?php base_url()?>assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css">
+<link rel="stylesheet" href="<?php  echo base_url()."assets/font-awesome/css/font-awesome.css" ?>">
+<link rel="stylesheet" href="<?php  echo base_url()."assets/plugins/datatables/dataTables.bootstrap.css"?>">
+<link rel="stylesheet" href="<?php  echo base_url()."assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css"?>">
+<link rel="stylesheet" href="<?php  echo base_url()."assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css"?>">
+<link rel="stylesheet" href="<?php  echo base_url()."assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css"?>">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -46,6 +46,7 @@
 	  </div>
 	  <ul class="sidebar-menu" id="sidebarmenu">
 		<li class="header">MAIN NAVIGATION</li>
+
 	  </ul>
 	</section>
   </aside>
@@ -112,9 +113,8 @@
 <script src="<?php echo base_url() ?>assets/plugins/datatables/dataTables.bootstrap.min.js"></script>
 <script src="<?php echo base_url() ?>assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js"></script>
 <script src="<?php echo base_url() ?>assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
-<script src="<?= base_url() ?>assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
+<script src="<?php echo base_url() ?>assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
 <script src="<?php echo base_url()."assets" ?>/global.js"></script>
-
 <script>
  $(document).ready(function() {
  	global.getmenu();

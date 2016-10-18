@@ -11,4 +11,8 @@ class UserModel extends CI_Model {
 	function getalluser(){
 		return $this->db->get($this->nama_tabel);
 	}
+
+	function insert_user(){
+		$this->db->insert($this->nama_tabel,$user);
+	}
 }

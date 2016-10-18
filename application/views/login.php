@@ -14,7 +14,7 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
 	<p class="login-box-msg">Sign in to start your session</p>
-	<form method="post" class="form-horizontal" action="<?php  echo base_url().'index.php/Login/user_login' ?>">
+	<form method="post" class="form-horizontal" action="<?php  echo base_url().'Login/user_login' ?>">
 	  <div class="form-group has-feedback">
 		<input type="text" class="form-control" placeholder="Email" name="username">
 		<span class="glyphicon glyphicon-envelope form-control-feedback"></span>

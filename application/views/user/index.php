@@ -27,6 +27,7 @@
 </section><!-- /.content -->
 <script>
 	$(document).ready(function() {
+		alert('kok');
 		var table = $('#TableUser').DataTable({
 			"oLanguage": {
 				"sProcessing": '<img src="<?= base_url() ?>theme/dist/img/loading.gif">'

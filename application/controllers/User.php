@@ -13,6 +13,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			$this->load->view('user/index');
 		}
 
+		public function insert()
+		{
+			$this->load->view('user/insert');
+		}
+
+		public function insertData()
+		{
+			$data['username']	= 	$this->input->post('username');
+			$data['password']	= 	md5($this->input->post('password'));
+			$data['status']		=	$this->input->post('status');
+			$this->UserModel->simpan($data);
+			echo 'Data berhasil disimpan';
+		}
+
 		public function getUser()
 		{
 			$data=$this->UserModel->getalluser();
